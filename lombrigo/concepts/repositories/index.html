@@ -1,0 +1,1120 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../controllers/">
+      
+      
+        <link rel="next" href="../routers/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+    
+    
+      
+        <title>Repositories - Aloe Documentation center</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.fad675c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#repositories" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Aloe Documentation center" class="md-header__button md-logo" aria-label="Aloe Documentation center" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Aloe Documentation center
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Repositories
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Aloe Documentation center" class="md-nav__button md-logo" aria-label="Aloe Documentation center" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Aloe Documentation center
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aloe Documentation Center
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lombrigo
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lombrigo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lombrigo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Concepts
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Concepts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concepts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Controllers
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Controllers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../controllers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Controllers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3" id="__nav_2_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Repositories
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Repositories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Repositories
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Repositories
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-dao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding DAO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-dao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Working with DAO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defining-the-dao-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defining the DAO interface
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defining the DAO interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Components
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defining-dao-implementations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defining DAO implementations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defining DAO implementations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#components_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Components
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_4" id="__nav_2_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Routers
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Routers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../routers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Routers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dependencies
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Dependencies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dependencies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dependencies reference
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Packages
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Packages
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../packages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Structure and packages
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-dao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding DAO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-dao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Working with DAO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defining-the-dao-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defining the DAO interface
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defining the DAO interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Components
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defining-dao-implementations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defining DAO implementations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defining DAO implementations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#components_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Components
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="repositories">Repositories<a class="headerlink" href="#repositories" title="Permanent link">&para;</a></h1>
+<p>The <code>repositories</code> package gathers the entities that are responsible for interacting with data sources.
+These entities are called <code>DAO</code> (Data Access Object). They are a high-level abstraction of one or more specific data sources.
+The abstraction of the target data source allows the caller (generally a <code>controller</code>) to be fully unbound from
+a data source implementation. This permits high flexibility and extensibility.</p>
+<h2 id="understanding-dao">Understanding DAO<a class="headerlink" href="#understanding-dao" title="Permanent link">&para;</a></h2>
+<p>A <code>DAO</code> is not an abstraction of a data source; it is defined to retrieve an entity. Different
+implementations will then retrieve the needed data using data source connectors.</p>
+<p>Here is a scheme that explains it:</p>
+<p><img alt="" src="../../assets/schemas/dao/dao.png" /></p>
+<p>For example, if our API needs to manipulate a <code>Car</code> object, we would define a <code>ICarDAO</code> that is the 
+abstraction, and we would implement a <code>MySQLCarDAO</code> as the implementation of <code>ICarDAO</code> to manipulate
+a <code>Car</code> object stored in a MySQL database.</p>
+<h2 id="working-with-dao">Working with DAO<a class="headerlink" href="#working-with-dao" title="Permanent link">&para;</a></h2>
+<p>To create a working <code>DAO</code>, we need a few things:</p>
+<ul>
+<li>Defining the DAO interface.</li>
+<li>Creating one or more implementation(s) for a specific data source.</li>
+</ul>
+<h2 id="defining-the-dao-interface">Defining the DAO interface<a class="headerlink" href="#defining-the-dao-interface" title="Permanent link">&para;</a></h2>
+<h3 id="components">Components<a class="headerlink" href="#components" title="Permanent link">&para;</a></h3>
+<p><strong>DAO Interface</strong></p>
+<p>The <code>&lt;Entity&gt;DAO</code> interface serves as a contract for managing data access operations related to a specific model. The interface declares operations on model entities. Implementations of this interface should provide functionality tailored to the characteristics of the specific model.</p>
+<p><strong>ProxyFactory&lt;Entity&gt;DAO</strong></p>
+<p>The <code>ProxyFactory&lt;Entity&gt;DAO</code> function acts as a proxy for creating and retrieving I<Entity>DAO instances. It checks if a specific type and connector combination already exists in the registry (mapDAO). If found, it returns the existing instance; otherwise, it delegates the creation to the <code>Factory&lt;Entity&gt;DAO</code> function. The newly created <code>I&lt;Entity&gt;DAO</code> instance is then saved in the registry for future use.</p>
+<p><strong>Factory&lt;Entity&gt;DAO</strong></p>
+<p>The <code>Factory&lt;Entity&gt;DAO</code> function is responsible for creating a new <code>I&lt;Entity&gt;DAO</code> instance based on the provided <code>DAOFactoryOptions</code>. It uses a switch statement to determine the <code>DAO</code> type and calls the corresponding factory function for that type. If the specified <code>DAO</code> type is not recognized, it returns a <code>DAOTypeNotFoundError</code>. The created <code>I&lt;Entity&gt;DAO</code> instance is returned if successful.</p>
+<p>See <a href="">configuring the API</a> for more details.</p>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>Here is an example for an <code>IFrogDAO</code>:</p>
+<pre><code class="language-go">package repositories
+
+import (
+    &quot;context&quot;
+    &quot;fmt&quot;
+
+    model &quot;github.com/Aloe-Corporation/frog-api/pkg/structs&quot;
+)
+
+// mapFrogDAO is used by ProxyFactoryFrogDAO to store FrogDAO.
+var mapFrogDAO = make(map[string]map[string]IFrogDAO)
+
+// IFrogDAO is a DAO interface to manage Frog.
+type IFrogDAO interface {
+    ReadByUUID(ctx context.Context) (*model.Frog, error)
+}
+
+// ProxyFactoryFrogDAO uses FactoryFrogDAO if the FrogDAO don't exist, and returns FrogDAO.
+func ProxyFactoryFrogDAO(opt DAOFactoryOptions) (IFrogDAO, error) {
+    // Test if exist
+    mapConnector, mapExist := mapFrogDAO[opt.Type]
+    if mapExist {
+        daoFrog, present := mapConnector[opt.Connector]
+        if present {
+            return daoFrog, nil
+        }
+    }
+
+    // Build new FrogDAO
+    daoFrog, err := FactoryFrogDAO(opt)
+    if err != nil {
+        return nil, fmt.Errorf(&quot;fail to build new FrogDAO: %w&quot;, err)
+    }
+
+    // Save new FrogDAO
+    if !mapExist {
+        mapFrogDAO[opt.Type] = make(map[string]IFrogDAO)
+    }
+    mapFrogDAO[opt.Type][opt.Connector] = daoFrog
+
+    return daoFrog, nil
+}
+
+// FactoryFrogDAO builds a new FrogDAO according to the typename.
+func FactoryFrogDAO(opt DAOFactoryOptions) (IFrogDAO, error) {
+    var dao IFrogDAO
+    var err error
+
+    switch opt.Type {
+    case TypeFrogMongoDAO:
+        dao, err = factoryFrogMongoDAO(opt)
+    default:
+        return nil, &amp;DAOTypeNotFoundError{Type: opt.Type}
+    }
+
+    if err != nil {
+        return nil, fmt.Errorf(&quot;fail to build %v: %w&quot;, opt.Type, err)
+    }
+
+    return dao, nil
+} 
+</code></pre>
+<h2 id="defining-dao-implementations">Defining DAO implementations<a class="headerlink" href="#defining-dao-implementations" title="Permanent link">&para;</a></h2>
+<h3 id="components_1">Components<a class="headerlink" href="#components_1" title="Permanent link">&para;</a></h3>
+<p><strong>DAO identifier</strong></p>
+<p>Each DAO implementation must define an identifier to identify the implementation. This identifier will be used to instantiate the DAO in the call of the DAO interface <a href="#components">proxy factory</a> during API initialization.</p>
+<p><strong>DAO implementation structure</strong></p>
+<p>The implementation of the <code>DAO</code> is represented as a struct that holds a <code>connector</code> to the data source.
+The <code>connector</code> is defined in the <a href="">connectors package</a>. Every connectors are defined in the connectors package to lighten the repositories code and to improve modularity.</p>
+<p>The implementation must contain a <code>connectorName</code> field to identify the correct <code>connector</code> when initializing the <code>DAO</code>.</p>
+<p><strong>DAO methods</strong></p>
+<p>The implementation must implement all the methods defined by the <code>DAO interface</code> to respect the contract.</p>
+<p>The implementation can also contain additional private methods to facilitate some processes.</p>
+<p><strong>Private factory</strong></p>
+<p>Each implementation must define a private factory that will be called by its corresponding DAO interface <a href="#components">proxy factory</a>.</p>
+<p>See <a href="">configuring the API</a> for more details.</p>
+<h3 id="example_1">Example<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
+<p>Here is an example with a <code>FrogMongoDAO</code> that implements the <code>IFrogDAO</code>:</p>
+<pre><code class="language-go">package repositories
+
+import (
+    &quot;context&quot;
+    &quot;fmt&quot;
+    &quot;github.com/Aloe-Corporation/frog-api/internal/connectors&quot;
+    model &quot;github.com/Aloe-Corporation/frog-api/pkg/structs&quot;
+    &quot;github.com/Aloe-Corporation/mongodb&quot;
+    &quot;github.com/google/uuid&quot;
+)
+
+const (
+    // TypeFrogMongoDAO is an identifier to build FrogMongoDAO.
+    TypeFrogMongoDAO = &quot;FrogMongoDAO&quot;
+)
+
+var _ IFrogDAO = (*FrogMongoDAO)(nil)
+
+// FrogMongoDAO is a FrogDAO with MySQL connector.
+type FrogMongoDAO struct {
+    connector     *mongodb.Connector
+    connectorName string
+}
+
+
+func (dao *FrogMongoDAO) ReadByUUID(ctx context.Context) (*model.Frog, error) {
+    // mongo db specific code
+    return nil, nil
+}
+
+
+// factoryFrogMongoDAO build FrogMongoDAO.
+func factoryFrogMongoDAO(opt DAOFactoryOptions) (*FrogMongoDAO, error) {
+    connector, err := connectors.GetConnectorMongo(opt.Connector)
+    if err != nil {
+        return nil, fmt.Errorf(&quot;fail to get connector: %w&quot;, err)
+    }
+
+    return &amp;FrogMongoDAO{
+        connector:     connector,
+        connectorName: opt.Connector,
+    }, nil
+}
+</code></pre>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+    
+  </body>
+</html>
